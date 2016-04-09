@@ -1,4 +1,3 @@
-
 import nltk
 from nltk.corpus import stopwords
 from nltk.tokenize import RegexpTokenizer
@@ -46,8 +45,6 @@ fdist = nltk.FreqDist(stemmed_words)
 
 print "Top 50 Words"
 print fdist.most_common(50)
-
-# [(u'neuron', 918), (u'network', 686), (u'learn', 511), (u'function', 476), (u'input', 436), (u'output', 317), (u'weight', 307), (u'train', 306), (u'one', 304), (u'valu', 303), (u'p', 285), (u'use', 282), (u'activ', 236), (u'neural', 236), (u'layer', 234), (u'time', 222), (u'h', 210), (u'two', 185), (u'state', 173), (u'k', 168), (u'mean', 168), (u'error', 168), (u'pattern', 166), (u'x', 163), (u'differ', 157), (u'chang', 152), (u'process', 149), (u'definit', 147), (u'vector', 143), (u'set', 140), (u'see', 139), (u'connect', 138), (u'gfed', 134), (u'abc', 133), (u'inform', 132), (u'space', 128), (u'system', 125), (u'problem', 125), (u'perceptron', 124), (u'thus', 124), (u'exampl', 124), (u'rule', 121), (u'rbf', 116), (u'result', 114), (u'possibl', 114), (u'point', 112), (u'cluster', 111), (u'fig', 110), (u'step', 110), (u'would', 108)]
 
 
 
